@@ -4,8 +4,8 @@ import NewsTable from "@/app/components/cms/NewsTable";
 export default function BeritaSection() {
   return (
     <>
-      <NewsForm />
-      <NewsTable />
+      <NewsForm/>
+      <NewsTable/>
     </>
   );
 }
