@@ -23,25 +23,25 @@ export default function NewsForm() {
 
   return (
     <div className="bg-white p-6 rounded-2xl shadow">
-      <h1 className="text-2xl font-bold mb-5">
+      <h1 className="text-2xl font-bold mb-6">
         Tambah Berita
       </h1>
 
       <input
         type="text"
         placeholder="Judul Berita"
-        className="w-full border p-3 rounded-xl mb-4"
+        className="w-full border p-3 rounded-xl mb-5"
       />
 
       <input
         type="file"
         accept="image/*"
         onChange={handleImage}
-        className="mb-4"
+        className="mb-5"
       />
 
       {image && (
-        <div className="mb-5">
+        <div className="mb-6">
           <Image
             src={image}
             alt="preview"
@@ -57,7 +57,7 @@ export default function NewsForm() {
         setData={setContent}
       />
 
-      <button className="bg-blue-600 text-white px-5 py-3 rounded-xl mt-5 hover:bg-blue-700 transition">
+      <button className="bg-blue-600 text-white px-5 py-3 rounded-xl mt-6 hover:bg-blue-700 transition">
         Simpan Berita
       </button>
     </div>

@@ -1,11 +1,10 @@
 import DashboardLayout from "./components/layout/DashboardLayout";
+import DashboardSection from "./sections/dashboard/DashboardSection";
 
 export default function Home() {
   return (
     <DashboardLayout>
-      <h1 className="text-3xl font-bold">
-        Dashboard CMS
-      </h1>
+      <DashboardSection />
     </DashboardLayout>
   );
 }

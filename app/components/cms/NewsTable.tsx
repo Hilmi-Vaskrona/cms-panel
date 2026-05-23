@@ -15,8 +15,8 @@ const berita = [
 
 export default function NewsTable() {
   return (
-    <div className="bg-white rounded-2xl shadow p-5 mt-8">
-      <h2 className="text-xl font-bold mb-5">
+    <div className="bg-white rounded-2xl shadow p-6 mt-8">
+      <h2 className="text-xl font-bold mb-6">
         List Berita
       </h2>
 
